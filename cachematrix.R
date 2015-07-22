@@ -1,7 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
 ## This function takes a matrix as argument and returns a list of four functions that can be applied on the matrix
 ##set the value of the matrix
 ##get the value of the matrix
@@ -42,7 +38,7 @@ cacheSolve <- function(mymatrix, ...) {
 
 
 ## Above function can be tested using following. If the product of matrix x and the inverse matrix
-## reurned by cacheSolve function is identity atrix , then the answer is correct.
+## returned by cacheSolve function is identity matrix , then the answer is correct.
 
 ##x<-makeCacheMatrix(matrix(c(4,3,3,2),nrow=2,ncol=2))
 ##cacheSolve(x)
